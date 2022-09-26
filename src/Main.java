@@ -4,11 +4,10 @@ import java.util.Arrays;
 
 public class Main {
 
+
     public static void main(String[] args) {
         Queue<Integer> q = new QueueImpl<Integer>(5);
         try {
-
-
 
             q.push(1);
             System.out.println(q.size());
@@ -25,14 +24,14 @@ public class Main {
 */
 
 
-            Class theClass = q.getClass();
-            Method[] llistaMetodes = theClass.getDeclaredMethods();
+            //Class theClass = q.getClass();
+            //Method[] llistaMetodes = theClass.getDeclaredMethods();
 
-            System.out.println(Arrays.asList(llistaMetodes));
+            //System.out.println(Arrays.asList(llistaMetodes));
 
-            Field[] llistaAttr = theClass.getDeclaredFields();
+            //Field[] llistaAttr = theClass.getDeclaredFields();
 
-            System.out.println(Arrays.asList(llistaAttr));
+            //System.out.println(Arrays.asList(llistaAttr));
 
 
 
